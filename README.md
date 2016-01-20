@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.org/markduck/markduck.svg?branch=master)](https://travis-ci.org/markduck/markduck)
+
 # markduck
 Modular markdown editor built with [react](https://github.com/facebook/react).
 
