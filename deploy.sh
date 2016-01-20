@@ -31,4 +31,4 @@ git commit -m "Auto-deploy of site"
 # repo's master branch. (All previous history on the master branch
 # will be lost, since we are overwriting it.) We redirect any output to
 # /dev/null to hide any sensitive credential data that might otherwise be exposed.
-git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:master > /dev/null 2>&1
+git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" > /dev/null 2>&1
