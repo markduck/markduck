@@ -1,6 +1,11 @@
 language: node_js
 node_js:
-  - "4.2.1"
+- 4.2.1
+env:
+  global:
+  - GH_REF: github.com/markduck/markduck.github.io.git
+  - secure: MtitMCb2IsnHNdzP+qhPjzljRTO7CptY8IMBjubEOiCuGuLzGn0wLJXCKp548e1jQSQhZQZKoRyMsJXdDaBoDujc0Hq55QAdHA73KSnS8oPJJmkEkDBFB+oGpudoK0KkZduL32xOhiXzrGiQw7SJ7k0JuEEqNk4tZcOUv61qYctcKVSV0KH0miGOV//CejI9HUvJRbXuGNGArKbH5e4FI5Ib9FkJEISj6T/IPvXw1p+Fe9gQpoe2ko84IS1AAx/+myURAmvga5jdcanX00tO+wT6plcenYzvo0j0UMmFjPB/eudu01ntRTp+F4p+7RXcKTtRWKoTfSr3dHYtnUWGbFfa54XZOOP9hlcvJJ8SK6mntgWdpERj00N0k6OxUI9V5cwyKbt9siMTO8XYM8mVeiCpthQGU20d/TTHUjOxButv3pPalJBNne2A4sNZSlu0kgBGKUc3fld84tzmDzgjOGHNsFe+Ek7LO1EGf8IJzIh3Vh76VOyFFVrBKTT0XSeP8fLJNXem3PeALKSRLrpYGoosbfVzGa81wd8GSCfuLkR+9fzjytlT5RNrfzqugrcTb8Hy8JFkGLVWlIpKDH0xJqeT+TgcykW1AK1Pi4OYa+drgajAok8pybgF/EVfFPmTjU+oIQ3l2ZwAutB2Sqa/CYDnbIoFhLfnxxRqA2EWiyY=
 script:
-  - npm run lint
-  - npm test
+- npm run lint
+- npm test
+- bash ./deploy.sh
