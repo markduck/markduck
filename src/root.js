@@ -20,11 +20,17 @@ export default class Root extends Component {
 		const onChange = value => {
 			this.setState({ content: value });
 		};
+		const aceProps = {
+			mode: 'markdown',
+			theme: 'github',
+			value: this.state.content,
+			onChange,
+		};
 		return (
 			<Grid className="app">
 				<Row>
 					<Col md={6}>
-						<Ace mode="java" theme="github" value={this.state.content} onChange={onChange}/>
+						<Ace {...aceProps}/>
 					</Col>
 					<Col md={6}>
 						<Markdown source={this.state.content}/>
