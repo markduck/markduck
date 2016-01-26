@@ -27,12 +27,12 @@
   "dependencies": {
     "classnames": "^2.2.3",
     "jquery": "^2.2.0",
-    "lodash": "^4.0.0",
+    "lodash": "^4.0.1",
     "react": "^0.14.6",
     "react-ace": "^3.1.0",
     "react-bootstrap": "^0.28.2",
     "react-dom": "^0.14.6",
-    "react-markdown2": "^0.10.5",
+    "react-markdown2": "^0.10.6",
     "react-sidebar": "^2.1.1",
     "react-tabs": "^0.5.1"
   },
@@ -69,7 +69,7 @@
     "style-loader": "^0.13.0",
     "webpack": "^1.12.12",
     "webpack-dev-middleware": "^1.5.1",
-    "webpack-hot-middleware": "^2.6.2",
+    "webpack-hot-middleware": "^2.6.4",
     "webpack-sources": "^0.1.0"
   }
 }
