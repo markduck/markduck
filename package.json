@@ -32,7 +32,7 @@
     "react-ace": "^3.1.0",
     "react-bootstrap": "^0.28.2",
     "react-dom": "^0.14.7",
-    "react-markdown2": "^0.10.20",
+    "react-markdown2": "^0.10.21",
     "react-sidebar": "^2.1.1",
     "react-tabs": "^0.5.3"
   },
