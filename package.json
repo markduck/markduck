@@ -31,7 +31,7 @@
     "react": "^15.0.0",
     "react-ace": "^3.2.0",
     "react-bootstrap": "^0.28.5",
-    "react-dom": "^0.14.8",
+    "react-dom": "^15.0.0",
     "react-markdown2": "^0.10.27",
     "react-sidebar": "^2.1.1",
     "react-tabs": "^0.5.3"
