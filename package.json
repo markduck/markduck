@@ -27,7 +27,7 @@
   "dependencies": {
     "classnames": "^2.2.4",
     "jquery": "^2.2.3",
-    "lodash": "^4.11.1",
+    "lodash": "^4.11.2",
     "react": "^15.0.2",
     "react-ace": "^3.4.0",
     "react-bootstrap": "^0.29.3",
