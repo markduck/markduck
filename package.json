@@ -34,7 +34,7 @@
     "react-dom": "^15.1.0",
     "react-markdown2": "^0.10.40",
     "react-sidebar": "^2.1.2",
-    "react-tabs": "^0.5.4"
+    "react-tabs": "^0.5.5"
   },
   "devDependencies": {
     "react-devpack": "^0.1.33"
