@@ -33,7 +33,7 @@
     "react-bootstrap": "^0.29.5",
     "react-dom": "^15.1.0",
     "react-markdown2": "^0.10.42",
-    "react-sidebar": "^2.1.3",
+    "react-sidebar": "^2.1.4",
     "react-tabs": "^0.6.0"
   },
   "devDependencies": {
