@@ -26,7 +26,7 @@
   "homepage": "https://github.com/markduck/markduck#readme",
   "dependencies": {
     "classnames": "^2.2.5",
-    "jquery": "^3.1.0",
+    "jquery": "^3.1.1",
     "lodash": "^4.16.1",
     "react": "^15.3.2",
     "react-ace": "^3.5.0",
