@@ -30,7 +30,7 @@
     "lodash": "^4.16.4",
     "react": "^15.3.2",
     "react-ace": "^3.6.1",
-    "react-bootstrap": "^0.30.4",
+    "react-bootstrap": "^0.30.6",
     "react-dom": "^15.3.2",
     "react-markdown2": "^0.11.0",
     "react-sidebar": "^2.1.4",
