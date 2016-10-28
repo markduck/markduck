@@ -37,6 +37,6 @@
     "react-tabs": "^0.8.2"
   },
   "devDependencies": {
-    "react-devpack": "^0.2.0"
+    "react-devpack": "^0.2.1"
   }
 }
